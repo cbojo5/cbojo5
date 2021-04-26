@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+    
+    
+}
+
+#container {
+    box-sizing: content-box;
+    flex-wrap: wrap;
+    justify-items: normal;
+    display: grid;
+    padding:1rem; 
+    margin:0;
+    font-family: 'Karla', sans-serif; 
+    font-size: 16px;
+    font-weight: 400;
+    background-color:hsl(204, 43%,93%);
+    color: whitesmoke;
+    grid-template-columns:300 px 300px;
+    grid-template-areas:
+    "a a"
+    "b c"
+}
+
+.Joinourcommunity {
+    grid-area: a;
+    background-color:white;
+    padding: 2rem;
+    color:hsl(218, 22%, 67%);
+    font-size: small;
+    align-content: space-between;
+    
+
+}
+.MonthlySubscription {
+    grid-area: b;
+    background-color: hsl(179, 62%, 43%);
+    padding: 2rem;
+    display: grid;
+    align-content: space-between;
+    
+}
+
+.WhyUs {
+    grid-area: c;
+    background-color: hsl(179, 62%, 47%);
+    padding: 2rem;
+    display: grid;
+    
+}
+
+ul { list-style: none;
+}
+
+button {background-color: hsl(71, 73%, 54%);
+    color:whitesmoke;
+    border-radius: 6px;
+    height: 200%;
+    width:100%;
+    border-style:none;
+    padding: 1px;
+    
+}
+
+h1{
+    color:hsl(179, 62%, 43%);  
+}
+
+h2{
+    color:hsl(71, 73%, 54%);
+    
+}
+ h3{
+     color:white;
+     
+ }   
+
+ b{
+     font-size: 25px;
+ }

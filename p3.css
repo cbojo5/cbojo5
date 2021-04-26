@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body { 
+    
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    color: hsl(217, 19%, 35%);
+}
+
+section{
+    background: hsl(210, 46%, 95%);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+
+.card {
+    height: 250px;
+    width:800px;
+    border-radius: 20px;
+    background: white; 
+    overflow: hidden; 
+}
+
+.card-header {
+    display: flex;
+    height: 5px;
+    justify-content: right;
+    text-align: right;
+
+}
+.card-body {
+
+     padding: 0 70px ;
+}
+    
+.title {
+    padding-top: 15px;    
+    padding-left: 300px;
+    text-align: left;       
+}
+
+.content {
+    padding-left: 300px;
+}
+
+.card-footer {
+    display: flex;
+    padding-top: 15px;
+    padding-left: 370px;
+}
+
+.Michelle {
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    overflow: hidden;
+}
+
+.Michelle img {
+    width: 100%;
+    height: auto;
+    display: block;
+    align-items: right;
+}
+
+.name {
+    padding-left: 15px;
+}
+
+.date {
+    padding-left:13px;
+    color:hsl( 212, 23%, 69%)
+}
+
+.arrow {
+    padding-left: 175px;
+    padding-top: 10px;
+}
+    
+
+    
+    

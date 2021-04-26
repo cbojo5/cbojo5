@@ -1,0 +1,140 @@
+
+body {
+    background-image:url("bg-desktop.svg");
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.logo{
+     margin-left: 35px;
+     margin-top: 10px;
+     width:10%;
+}
+
+.mockup{
+    width: 65%;
+}
+
+button { 
+    background-color: white;
+    color:hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    height: 50px;
+    width: 45%;
+    border-style: none;
+    box-shadow: 4px 4px 4px hsl(258, 39%, 22%);
+   
+}
+
+.socials {
+    display:flex;
+    flex-direction: column;
+    width:3%;
+    
+
+}
+
+
+button:hover{
+    background-color:#e882e8;  
+}
+
+.twitter:hover{
+    filter: invert(80%) sepia(90%) saturate(5983%) hue-rotate(287deg) brightness(450%) contrast(102%);
+}
+
+.facebook:hover{
+    filter: invert(80%) sepia(90%) saturate(5983%) hue-rotate(287deg) brightness(450%) contrast(102%);
+}
+
+.instagram:hover{
+    filter: invert(80%) sepia(90%) saturate(5983%) hue-rotate(287deg) brightness(450%) contrast(102%);
+}
+
+
+
+.content {
+    justify-content: space-between;
+    height: 15px;
+    width: 375px;
+    position: fixed;
+    right: 20px;
+    height: auto;
+    top: 200px;
+}       
+
+p {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+    
+    
+    
+
+
+@media only screen and (max-width:600px) {
+    body {
+        background-image:url("bg-mobile.svg");
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        background-color: hsl(257, 40%, 49%);
+    }
+
+    .logo{
+        width:80%;   
+    }
+
+    .mockup{
+        
+        width: 70%;}
+    
+   .content{
+    justify-content: center;
+       text-align: center;
+       font-size: 9px;
+   }     
+
+   .header{
+      
+       margin-left:1rem;
+       font-size: 25px;
+       justify-content: center;
+       text-align: center;
+   }
+
+   button { 
+    background-color: white;
+    color:hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    height: 30px;
+    width: 75%;
+    border-style: none;
+    box-shadow: 4px 4px 4px hsl(258, 39%, 22%);}
+   
+
+    
+    
+  
+
+
+   
+}

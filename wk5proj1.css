@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image:url("bg-desktop.svg");
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: hsl(257, 40%, 49%);
+    padding:2rem;
+    background-position:center;
+    background-size:contain;
+}
+
+.logo{
+    margin-left: 3px;
+    margin-top: 1px;
+    width:15%;
+}
+
+main{
+    display:flex;
+}
+
+.mockup{
+    margin-top: 1em;
+    width: 40%;
+   flex-basis:50%;
+}
+
+.content{
+    padding:2em;
+    width:40%;
+    margin:auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+p{  padding-top:2em;
+    font-size: 12px;
+}
+
+button { 
+    background-color: white;
+    color:hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    margin-top:20px;
+    height: 40px;
+    width: 45%;
+    border-style: none;
+    box-shadow: 4px 4px 4px hsl(258, 39%, 22%);
+   
+}
+button:hover{
+    background-color:#e882e8;  
+}
+
+footer .fab:hover {
+   color:#e882e8; 
+   border:#e882e8;
+  
+}
+
+footer .fab {
+    color:white;
+    font-size:15px;
+    border-radius: 50%;
+    border:1px solid white;
+    border-width: 2px;
+    padding:0.5em;
+
+}
+
+footer{
+    float:right;
+    
+}
+
+
+@media only screen and (max-width:375px) {
+    body {
+        background-image:url("bg-mobile.svg");
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        background-color: hsl(257, 40%, 49%);
+    }
+
+    .mockup {
+        display: block;
+        margin-top:25%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;}
+    
+     main {
+        display:block;
+        width: auto;    
+        }
+
+    .header{
+        font-size: 18px;
+    }
+
+    .logo{
+        margin-left: 5px;
+        margin-top: 1px;
+        width:35%;
+    }
+    
+    .content{
+        text-align: center;
+        padding:2em;
+        width:70%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+       
+    }
+
+    .button{
+        background-color: white;
+        color:hsl(257, 40%, 49%);
+        font-family: 'Poppins', sans-serif;
+        border-radius: 25px;
+        margin-top:20px;
+        height: 70px;
+        width: 15%;
+        border-style: none;
+        box-shadow: 4px 4px 4px hsl(258, 39%, 22%);
+       
+    }
+
+    footer {
+        float:none;
+        margin-left: 92px;
+    }
+        
+}
+
+
+@media only screen and (min-width: 1400px) {
+
+    body {
+        background-image:url("bg-desktop.svg");
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        background-color: hsl(257, 40%, 49%);
+        padding:2rem;
+        background-position:center;
+        background-size:contain;
+    }
+    
+    .logo{
+        margin-left: 3px;
+        margin-top: 1px;
+        width:5%;
+    }
+
+
+
+}
