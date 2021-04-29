@@ -165,7 +165,7 @@ h4{
         background-color: white;
         flex-direction: column;
         flex-wrap:wrap;
-        width:325px;
+        width:299px;
         height:270px;
         align-items: center;
         border-radius: 15px;
@@ -174,7 +174,7 @@ h4{
     
     .tryitfree {
         
-        width:325px;
+        width:299px;
         height:55px;
         margin-left:23px;
         margin-top: 5px;
