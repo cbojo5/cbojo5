@@ -1,0 +1,170 @@
+*{
+   margin:200;
+   padding:200;
+   box-sizing:border-box;
+   
+}
+
+:root {
+    --orange:hsl(31, 77%, 52%);
+    --teal: hsl(184, 100%, 22%);
+    --darkteal: hsl(179, 100%, 13%);
+    --transparentwhite: hsl(0, 0%, 100%, 0.75);
+
+}
+
+main {
+font-family: 'Big Shoulders Display';
+font-family: 'Lexend Deca', sans-serif;
+display:flex;
+justify-content: center;
+font-size: 15px;
+margin: 100px;
+
+}
+
+.sedans {
+    padding:45px;
+    font-size: 12px;
+    width:300px;
+    height:400px;
+    background-color: var(--orange);
+    color:var(--transparentwhite);
+       
+}
+
+.suvs {
+    padding:45px;
+    font-size: 12px;
+    width:300px;
+    height:400px;
+    background-color: var(--teal);
+    color:var(--transparentwhite);
+}
+
+.luxury {
+    padding:45px;
+    font-size: 12px;
+    width:300px;
+    height:400px;
+    background-color: var(--darkteal);
+    color:var(--transparentwhite);
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    color:rgb(116, 114, 114);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    margin-top:70px;
+    height: 30px;
+    width: 65%;
+    border-style: none;
+    text-align:left;
+    font-size:10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+p {
+    font-size: smaller;
+    line-height: 20px;
+    color:var(--transparentwhite);
+}
+
+h1 {
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+.sedanbutton{
+    color:var(--orange);
+}
+
+.suvbutton{
+    color:var(--teal);
+}
+
+.luxbutton{
+    color:var(--darkteal);
+}
+
+@media only screen and (max-width:375px) {
+
+
+    main {
+        font-family: 'Big Shoulders Display';
+        font-family: 'Lexend Deca', sans-serif;
+        display:flex;
+        justify-content: center;
+        font-size: 15px;
+        margin: 0px;
+        flex-direction: column;
+        
+        }
+
+        .sedans {
+            padding: 45px;
+            font-size: 18px;
+            width:300px;
+            height:400px;
+            background-color: var(--orange);
+            color:var(--transparentwhite);
+           
+        }
+        
+        .suvs {
+            padding:45px;
+            font-size: 18px;
+            width:300px;
+            height:400px;
+            background-color: var(--teal);
+            color:var(--transparentwhite);
+        }
+        
+        .luxury {
+            padding:45px;
+            font-size: 18px;
+            width:300px;
+            height:400px;
+            background-color: var(--darkteal);
+            color:var(--transparentwhite);
+        }
+
+        button {
+            background-color: hsl(0, 0%, 95%);
+            color:rgb(116, 114, 114);
+            font-family: 'Poppins', sans-serif;
+            border-radius: 25px;
+            margin-top:5px;
+            height: 45px;
+            width: 65%;
+            border-style: none;
+            text-align:left;
+            font-size:15px;
+            font-weight: 600;
+            text-align: center;
+            
+        }
+
+
+}
+
+@media only screen and (min-width:1440px) {
+
+    main {
+        font-family: 'Big Shoulders Display';
+        font-family: 'Lexend Deca', sans-serif;
+        display:flex;
+        justify-content: center;
+        font-size: 15px;
+        margin: 250px;
+        
+        }
+
+
+
+
+
+}
