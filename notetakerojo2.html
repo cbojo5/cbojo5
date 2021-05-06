@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="notetakerojo.css">
+    <script src="notetakerojo.js"></script>
+    
+</head>
+<body>
+    <div class="second-page">
+        <ol id="notes-list">
+    
+        </ol>
+    </div>
+    
+    <a href="notetakerojo.html"><h3>Back</h3></a>
+    
+</body>
+<script>
+(function getNotes() {
+    let notes = getExistingNotes()
+    let notesArray = Object.values(notes)
+    let orderedList = document.getElementById('notes-list')
+    notesArray.forEach(note =>{
+        let listItem = document.createElement( 'li')
+        listItem.innerHTML = note
+        orderedList.appendChild(listItem)
+    })  
+})()
+</script>
+
+
+
+
+)
+
+</script>
+
+</html>
